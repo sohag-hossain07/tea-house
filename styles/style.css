@@ -110,6 +110,11 @@ button span {
 .client-name {
   font-family: "Roboto", sans-serif;
 }
+
+/* footer section starts */
+.footer-section ul li {
+  font-family: "Poppins", sans-serif;
+}
 /*
 font-family: 'Gloock', serif;
 font-family: 'Poppins', sans-serif;
