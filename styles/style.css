@@ -72,7 +72,7 @@ button {
 }
 
 .icon,
-button span {
+.button-white {
   background: var(--bg-gradient);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -115,8 +115,11 @@ button span {
 .footer-section ul li {
   font-family: "Poppins", sans-serif;
 }
-/*
-font-family: 'Gloock', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+
+.footer-section ul li a > i {
+  background: var(--bg-gradient);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
