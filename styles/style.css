@@ -1,9 +1,11 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500;600&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Poppins&family=Roboto:wght@700&display=swap");
 
 /* css variables */
 :root {
   --bg-gradient: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  --dark-color: #1c1c1c;
+  --text-color: #777777;
 }
 
 /* utilities */
@@ -29,6 +31,26 @@ body {
   padding: 0 30px;
 }
 
+h1 {
+  font-family: "Gloock", serif;
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dark-color);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
 ul li {
   list-style: none;
 }
@@ -44,8 +66,32 @@ img {
   display: block;
 }
 
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.icon {
+  background: var(--bg-gradient);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* banner section starts */
+.banner-rating {
+  left: 10%;
+  transform: translateX(10%);
+}
+/* banner section ends */
+/* tea presentation section starts */
+.presentation-image {
+  background-color: rgba(87, 118, 57, 0.1);
+}
+/* tea presentation section ends */
 /*
-font-family: 'Bebas Neue', cursive;
-font-family: 'Inter', sans-serif;
+font-family: 'Gloock', serif;
 font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 */

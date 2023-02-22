@@ -1,5 +1,15 @@
 /* extra small screen */
 @media screen and (max-width: 575px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  /* banner section */
+
+  .banner-rating {
+    left: 5%;
+    transform: translateX(5%);
+  }
 }
 
 /* small screen */
@@ -20,6 +30,10 @@
 
 /* extra large screen */
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* min width 1200px */
+@media screen and (min-width: 1200px) {
 }
 
 /* x-extra large screen */
