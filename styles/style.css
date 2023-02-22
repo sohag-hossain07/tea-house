@@ -71,7 +71,8 @@ button {
   font-weight: 500;
 }
 
-.icon {
+.icon,
+button span {
   background: var(--bg-gradient);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -90,6 +91,25 @@ button {
   background-color: rgba(87, 118, 57, 0.1);
 }
 /* tea presentation section ends */
+/* testimonial section */
+.super-client,
+.active-client-box {
+  max-width: 450px;
+}
+
+.active-client-box {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.client-box img {
+  transform: translate(-32px, -32px);
+}
+
+.client-name {
+  font-family: "Roboto", sans-serif;
+}
 /*
 font-family: 'Gloock', serif;
 font-family: 'Poppins', sans-serif;
